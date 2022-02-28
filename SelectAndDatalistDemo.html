@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Document</title>
+</head>
+<body>
+    <label for="months">Select month : </label>
+    <select name="months" id="months">
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+    </select>
+
+    <label for="courses">Choose your fav course : </label>
+    <input list="courses" name="course" id="course">
+
+    <datalist id="courses">
+        <option value="java">Java</option>
+        <option value="cpp">Cpp</option>
+        <option value="python">Python</option>
+    </datalist>
+</body>
+</html>
+<!-- The main difference between Select and Datalist is that in datalist we can add custom input other than
+        dropdown.In select we don't get that functionality. -->
